@@ -1,0 +1,10 @@
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\bin\Debug\netstandard2.1\GimMiBarrio.App.Dominio.deps.json
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\bin\Debug\netstandard2.1\GimMiBarrio.App.Dominio.dll
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\bin\Debug\netstandard2.1\GimMiBarrio.App.Dominio.pdb
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.csproj.AssemblyReference.cache
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.AssemblyInfoInputs.cache
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.AssemblyInfo.cs
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.dll
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\netstandard2.1\GimMiBarrio.App.Dominio.pdb

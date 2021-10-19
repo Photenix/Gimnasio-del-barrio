@@ -1,0 +1,20 @@
+@page
+@model GimMiBarrio.App.Presentacion.Pages.Planes.DetailsModel
+@{
+}
+
+<h2>Datos Detallados de Planes @Model.plan.Codigo @Model.plan.Nombre</h2>
+<div>
+    ID: @Model.plan.Id
+</div>
+<div>
+    CODIGO: @Model.plan.Codigo
+</div>
+<div>
+    NOMBRE: @Model.plan.Nombre
+</div>
+<div>
+    DESCRIPCION: @Model.plan.Descripcion
+</div>
+
+<a asp-page="./List" class="btn btn-default">Volver a la Lista de Planes.. </a>

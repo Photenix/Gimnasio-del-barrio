@@ -10,3 +10,6 @@ C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\bin\Debug\net5.0\GimMiBarrio
 C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\net5.0\GimMiBarrio.App.Dominio.dll
 C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\net5.0\ref\GimMiBarrio.App.Dominio.dll
 C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\net5.0\GimMiBarrio.App.Dominio.pdb
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\bin\Debug\net5.0\GimMiBarrio.App.Dominio.runtimeconfig.json
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\bin\Debug\net5.0\GimMiBarrio.App.Dominio.runtimeconfig.dev.json
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Dominio\obj\Debug\net5.0\GimMiBarrio.App.Dominio.genruntimeconfig.cache

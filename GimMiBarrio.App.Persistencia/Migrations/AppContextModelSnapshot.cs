@@ -40,7 +40,7 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Admin");
+                    b.ToTable("Admins");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.Entrenador", b =>
@@ -67,7 +67,7 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Entrenador");
+                    b.ToTable("Entrenadores");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.Gimnasio", b =>
@@ -94,7 +94,25 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Gimnasio");
+                    b.ToTable("Gimnasios");
+                });
+
+            modelBuilder.Entity("GimMiBarrio.App.Dominio.Login", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Contrasena")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Usuario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logins");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.Maquina", b =>
@@ -118,7 +136,7 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Maquina");
+                    b.ToTable("Maquinas");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.Plan", b =>
@@ -142,7 +160,30 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Plan");
+                    b.ToTable("Planes");
+                });
+
+            modelBuilder.Entity("GimMiBarrio.App.Dominio.PlanDia", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("DiasSeleccionados")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Horario")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("PlanId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlanId");
+
+                    b.ToTable("PlanDias");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.Transaccion", b =>
@@ -172,7 +213,7 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Transaccion");
+                    b.ToTable("Transacciones");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.UsuarioRecurrente", b =>
@@ -210,7 +251,16 @@ namespace GimMiBarrio.App.Persistencia.Migrations
 
                     b.HasIndex("PlanId");
 
-                    b.ToTable("UsuarioRecurrente");
+                    b.ToTable("UsuarioRecurrentes");
+                });
+
+            modelBuilder.Entity("GimMiBarrio.App.Dominio.PlanDia", b =>
+                {
+                    b.HasOne("GimMiBarrio.App.Dominio.Plan", "Plan")
+                        .WithMany()
+                        .HasForeignKey("PlanId");
+
+                    b.Navigation("Plan");
                 });
 
             modelBuilder.Entity("GimMiBarrio.App.Dominio.UsuarioRecurrente", b =>

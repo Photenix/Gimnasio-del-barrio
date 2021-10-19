@@ -1522,7 +1522,11 @@
       },
       "GimMiBarrio.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/GimMiBarrio.App.Dominio.dll": {}
         },

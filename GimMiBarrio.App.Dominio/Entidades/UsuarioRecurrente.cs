@@ -13,7 +13,6 @@ namespace GimMiBarrio.App.Dominio
         public string PesoInicial {get;set;}
         public string PesoActual {get;set;}
         
-       // [ForeignKey("Plan")]
-        public Plan Plan {get;set;}
+       
     }
 }

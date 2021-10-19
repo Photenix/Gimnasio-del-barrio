@@ -1,0 +1,13 @@
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\bin\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.deps.json
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\bin\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.dll
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\bin\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.pdb
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\bin\Debug\netstandard2.1\GimMiBarrio.App.Dominio.dll
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\bin\Debug\netstandard2.1\GimMiBarrio.App.Dominio.pdb
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.csproj.AssemblyReference.cache
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.AssemblyInfoInputs.cache
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.AssemblyInfo.cs
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.csproj.CopyComplete
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.dll
+C:\Gimnasio\GimMiBarrio.App\GimMiBarrio.App.Persistencia\obj\Debug\netstandard2.1\GimMiBarrio.App.Persistencia.pdb

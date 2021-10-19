@@ -2,19 +2,19 @@
 using Microsoft.EntityFrameworkCore;
 using GimMiBarrio.App.Dominio;
 //Listo validado
-namespace GimMiBarrio.App.Persistencia
+namespace GimMiBarrio.App.Persistencia.AppRepositorios
 {
     public class AppContext : DbContext
     {
-        public DbSet<UsuarioRecurrente> UsuarioRecurrente { get; set; }
-        public DbSet<Plan> Plan { get; set; }
-        public DbSet<Entrenador> Entrenador { get; set; }
-        public DbSet<Admin> Admin { get; set; }
-        public DbSet<Gimnasio> Gimnasio { get; set; }
-        public DbSet<Maquina> Maquina { get; set; }
-        public DbSet<Transaccion> Transaccion { get; set; }
-        public DbSet<PlanDia> PlanDia { get; set; }
-        public DbSet<Login> Login { get; set; }
+        public DbSet<UsuarioRecurrente> UsuarioRecurrentes { get; set; }
+        public DbSet<Plan> Planes { get; set; }
+        public DbSet<Entrenador> Entrenadores { get; set; }
+        public DbSet<Admin> Admins { get; set; }
+        public DbSet<Gimnasio> Gimnasios { get; set; }
+        public DbSet<Maquina> Maquinas { get; set; }
+        public DbSet<Transaccion> Transacciones { get; set; }
+        public DbSet<PlanDia> PlanDias { get; set; }
+        public DbSet<Login> Logins { get; set; }
         //crear el deContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -1,0 +1,45 @@
+@page
+@model GimMiBarrio.App.Presentacion.Pages.UsuarioRecurrentes.EditModel
+
+@{
+    int usuarioRecurrenteId = Model.usuarioRecurrente.Id;
+}
+<h2>Edición de los datos del Usuario Recurrente @Model.usuarioRecurrente.Nombres @Model.usuarioRecurrente.Identificacion</h2>
+<form method="post">
+    <input type="hidden" asp-for="usuarioRecurrente.Id" />  
+      
+    <div class="form-group">
+        <label asp-for="usuarioRecurrente.Identificacion"></label>
+        <input asp-for="usuarioRecurrente.Identificacion" class="form-control">
+        <span class="text-danger" asp-validation-for="usuarioRecurrente.Identificacion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="usuarioRecurrente.Nombres"></label>
+        <input asp-for="usuarioRecurrente.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="usuarioRecurrente.Nombres"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="usuarioRecurrente.Apellidos"></label>
+        <input asp-for="usuarioRecurrente.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="usuarioRecurrente.Apellidos"></span>
+    </div>
+       <div class="form-group">
+        <label asp-for="usuarioRecurrente.Estado"></label>
+        <input asp-for="usuarioRecurrente.Estado" class="form-control">
+        <span class="text-danger" asp-validation-for="usuarioRecurrente.Estado"></span>
+    </div>
+       <div class="form-group">
+        <label asp-for="usuarioRecurrente.PesoInicial">Peso Inicial</label>
+        <input asp-for="usuarioRecurrente.PesoInicial" class="form-control">
+        <span class="text-danger" asp-validation-for="usuarioRecurrente.PesoInicial"></span>
+    </div>
+       <div class="form-group">
+        <label asp-for="usuarioRecurrente.PesoActual">Peso Actual</label>
+        <input asp-for="usuarioRecurrente.PesoActual" class="form-control">
+        <span class="text-danger" asp-validation-for="usuarioRecurrente.PesoActual"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-success">Grabar</button>    
+</form>
+
+<a asp-page="./List" class="btn-default">Regresar a la lista de Usuarios Recurrentes </a>

@@ -1,0 +1,32 @@
+@page
+@model GimMiBarrio.App.Presentacion.Pages.UsuarioRecurrentes.DetailsModel
+@{
+}
+
+<h2>Datos Detallados de Usuario Recurrente @Model.usuarioRecurrente.Identificacion @Model.usuarioRecurrente.Nombres</h2>
+<div>
+    ID: @Model.usuarioRecurrente.Id
+</div>
+<div>
+    IDENTIFICACIÓN: @Model.usuarioRecurrente.Identificacion
+</div>
+<div>
+    NOMBRES: @Model.usuarioRecurrente.Nombres
+</div>
+<div>
+    APELLIDOS: @Model.usuarioRecurrente.Apellidos
+</div>
+<div>
+    ESTADO: @Model.usuarioRecurrente.Estado
+</div>
+<div>
+    FECHA DE INGRESO: @Model.usuarioRecurrente.FechaIngreso
+</div>
+<div>
+    PESO INICIAL: @Model.usuarioRecurrente.PesoInicial
+</div>
+<div>
+    PESO ACTUAL: @Model.usuarioRecurrente.PesoActual
+</div>
+
+<a asp-page="./List" class="btn btn-default">Volver a la Lista de Usuarios Recurrente.. </a>

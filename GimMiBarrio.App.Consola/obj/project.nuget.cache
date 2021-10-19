@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LvtMxWE/M3821zzN84dyUE+NSnKKdKjd41C5FHOD9dqYlGC0x/SQPyAwTpIAlyUSxr9T9bD3WVOhGYJBgIV3+Q==",
+  "dgSpecHash": "aBZihPJyXy7NLaxlI65PQ4GpcjPFyvxJo15on3USzQTpyAEuwkNiWsUV2iJU4aQmOhQ0F0tBh2h/Lr0U1hTUzQ==",
   "success": true,
   "projectFilePath": "C:\\Gimnasio\\GimMiBarrio.App\\GimMiBarrio.App.Consola\\GimMiBarrio.App.Consola.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\kelly\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
     "C:\\Users\\kelly\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\kelly\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0\\microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
+    "C:\\Users\\kelly\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.0\\microsoft.entityframeworkcore.tools.5.0.0.nupkg.sha512",
     "C:\\Users\\kelly\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\kelly\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\kelly\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

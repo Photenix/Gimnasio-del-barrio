@@ -1,0 +1,52 @@
+@page
+@model GimMiBarrio.App.Presentacion.Pages.UsuarioRecurrentes.ListModel
+@{
+   var searchString = Model.searchString; 
+}
+<h1>Listado de Usuarios Recurrentes</h1>
+<p>
+    @Html.ActionLink("Listar Todo", "./List")
+</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Buscar x Nombre: @Html.TextBox("searchString")  
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table">
+    @foreach (var usuarioRecurrente in Model.usuarioRecurrentes)
+    {
+        <tr>
+            <td>@usuarioRecurrente.Id</td>
+            <td>@usuarioRecurrente.Identificacion</td>
+            <td>@usuarioRecurrente.Nombres</td>
+            <td>@usuarioRecurrente.Apellidos</td>
+            <td>@usuarioRecurrente.Estado</td>
+            <td>@usuarioRecurrente.FechaIngreso</td>
+            <td>@usuarioRecurrente.PesoInicial</td>
+            <td>@usuarioRecurrente.PesoActual</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-usuarioRecurrenteId="@usuarioRecurrente.Id">
+                    Detalle</a>
+            </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-usuarioRecurrenteId="@usuarioRecurrente.Id">
+                    Editar
+                </a>
+            </td> 
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./Delete" asp-route-usuarioRecurrenteId="@usuarioRecurrente.Id">
+                    Eliminar
+                </a>
+            </td> 
+        </tr>
+    }
+</table>
+
+<a asp-page=".\Edit" class="btn btn-primary">Adicionar un Usuario Recurrente</a>

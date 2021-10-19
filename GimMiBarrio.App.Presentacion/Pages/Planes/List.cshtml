@@ -1,0 +1,58 @@
+@page
+@model GimMiBarrio.App.Presentacion.Pages.Planes.ListModel
+@{
+   var searchString = Model.searchString; 
+}
+<h1>Listado de Planes</h1>
+<p>
+    @Html.ActionLink("Listar Todo", "./List")
+</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Buscar x Nombre: @Html.TextBox("searchString")  
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table">
+    
+    <tr>
+        <td>Id</td>
+        <td>Codigo</td>
+        <td>Nombre</td>
+        <td>Descripcion</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    @foreach (var plan in Model.planes)
+    {
+        <tr>
+            <td>@plan.Id</td>
+            <td>@plan.Codigo</td>
+            <td>@plan.Nombre</td>
+            <td>@plan.Descripcion</td>
+    
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-planId="@plan.Id">
+                    Detalle </a>
+            </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-planId="@plan.Id">
+                    Editar
+                </a>
+            </td> 
+
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./Delete" asp-route-planId="@plan.Id">
+                    Eliminar
+                </a>
+            </td> 
+        </tr>
+    }
+</table>
+
+<a asp-page=".\Edit" class="btn btn-primary">Adicionar un Plan</a>

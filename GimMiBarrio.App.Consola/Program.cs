@@ -12,7 +12,7 @@ namespace GimMiBarrio.App.Consola
             //Console.WriteLine("PROBANDO INSERTAR DBCONTEXT-BD");
             Console.WriteLine("En el metodo");
 
-            //AddUsuarioRecurrente();
+           // AddUsuarioRecurrente();
             GetUsuarioRecurrente(1);
             /* GetAllUsuarioRecurrentes();
             
